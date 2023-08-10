@@ -1,12 +1,26 @@
+import { Button, Htag, P } from './components';
 import styles from './page.module.css';
+import Logo from '../public/vercel.svg';
+import { Tag } from './components/Tag/Tag';
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <h1 className={styles.post_header}>.my_blog</h1>
-      <div className='posts'>
-        
-      </div>
+      <Logo />
+      <Htag tag='h1'>Текст 1</Htag>
+      <Htag tag='h2'>Текст 2</Htag>
+      <Htag tag='h3'>Текст 3</Htag>
+
+      <P size='lg'>Большой</P>
+      <P size='md'>Средний</P>
+      <P size='base'>Обычный</P>
+
+      <Tag href='#' size='sm'>Маленький</Tag>
+      <Tag size='base' color='gray'>Обычный</Tag>
+      <Tag size='md' color='primary'>Средний</Tag>
+
+      <Button appearance='primary' arrow='down'>Кнопка</Button>
+      <Button appearance='ghost' arrow='right'>Кнопка</Button>
     </main>
   );
 }

@@ -1,8 +1,8 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import { Open_Sans } from 'next/font/google';
+import { Noto_Sans_KR } from 'next/font/google';
 
-const opensans = Open_Sans({ subsets: ['latin'] });
+const opensans = Noto_Sans_KR({ subsets: ['latin'], weight: ['300', '400', '500', '700'] });
 
 export const metadata: Metadata = {
   title: 'Наш проект',

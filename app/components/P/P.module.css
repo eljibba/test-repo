@@ -1,0 +1,18 @@
+.p {
+	margin: 0;
+}
+
+.p-base {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.p-md {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.p-lg {
+	font-size: 18px;
+	line-height: 29px;
+}

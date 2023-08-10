@@ -1,14 +1,10 @@
 .main {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-
 	min-height: 100vh;
 	padding: 6rem;
+	gap: 8px;
 };
 
 .post_header {
 	color: red;
-	
 	font-size: 40px;
 }
